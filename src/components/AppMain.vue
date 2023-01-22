@@ -29,6 +29,7 @@ export default {
 @use "../styles/partials/mixins" as *;
 .container {
   background-color: white;
-  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
 }
 </style>

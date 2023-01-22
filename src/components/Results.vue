@@ -15,7 +15,13 @@ export default {
 </script>
 <template>
   <div>
-    <h4>Trovate {{ store.charactersList.length }} carte</h4>
+    <h2 id="result">TROVATE {{ store.charactersList.length }} CARTE</h2>
   </div>
 </template>
-<style lang=""></style>
+<style lang="scss">
+#result {
+  text-align: center;
+  margin: 20px 0;
+  color: white;
+}
+</style>

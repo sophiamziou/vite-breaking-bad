@@ -51,6 +51,5 @@ export default {
 main {
   padding: 10px 60px;
   background-color: $brown-color;
-  height: 700px;
 }
 </style>
